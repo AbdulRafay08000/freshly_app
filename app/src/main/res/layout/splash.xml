@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="338dp"
+        android:layout_height="242dp"
+        android:src="@drawable/freshly"
+    android:layout_marginBottom="24dp"
+    android:contentDescription="Freshly Logo" />
+
+    <!-- Login Button -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginButton"
+        android:layout_width="319dp"
+        android:layout_height="59dp"
+       android:layout_marginTop="164dp"
+        android:text="Log In"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00282E"
+        android:padding="12dp"
+        android:background="@drawable/outline_button"
+
+        />
+
+    <!-- Sign Up Button -->
+   <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signupButton"
+        android:layout_width="319dp"
+        android:layout_height="59dp"
+        android:text="sign up"
+       android:textColor="#A79191"
+        android:background="@drawable/outline_button"
+        android:padding="12dp"
+       android:layout_gravity="center"
+        android:textSize="18sp"
+       android:layout_marginTop="15dp"
+
+         />
+</LinearLayout>
